@@ -14,7 +14,7 @@ const ProductSlider = () => {
             <img src={prod12img}  className='rounded-t-xl'/>
             <div className='py-5 pl-5 outline-none border-b border-x border-b-[#ffffff] shadow-5xl rounded-b-xl' >
               <p className='text-xl font-bold mb-2'>Maxoni Microwaave Oven</p>
-              <p className='text-[16px] mr-2 text-[#121212e3] inline'> TK $78.0000</p> <span className='text-[#121212bf]'>TK $148.000</span>
+              <p className='text-[16px] mr-2 text-[#121212e3] inline'> TK $78.0000</p> <span className='text-[#121212bf] line-through'>TK $148.000</span>
               <p className='text-[16px] font-[600] underline hover:text-gray-500 mt-2'>Select Options +</p>
             </div>
          </div>
@@ -26,7 +26,7 @@ const ProductSlider = () => {
   				</div>
             <div className='py-5 pl-5 outline-none border-b border-x border-b-[#ffffff] shadow-5xl rounded-b-xl'>
               <p className='text-xl font-bold'>L F7 Pro</p>
-              <p className='text-[16px] mt-2 mr-2 text-[#121212e3] inline'>TK $78.0000</p> <span className='text-[#121212bf]'>$148.000</span>
+              <p className='text-[16px] mt-2 mr-2 text-[#121212e3] inline'>TK $78.0000</p> <span className='text-[#121212bf] line-through'>TK $148.000</span>
               <p className='text-[16px] font-[600] underline hover:text-gray-500 mt-2'>Select Options +</p>
             </div>
          </div>
@@ -38,7 +38,7 @@ const ProductSlider = () => {
   				</div>
             <div className='py-5 pl-5 outline-none border-b border-x border-b-[#ffffff] shadow-5xl rounded-b-xl'>
               <p className='text-xl font-bold'>KB Phone 15 Pro</p>
-              <p className='text-[16px] mt-2 mr-2 text-[#121212e3] inline'>$78.0000 <span className='text-[16px] mt-2 ml-2 text-[#121212e3] inline'>$148.000</span></p> 
+              <p className='text-[16px] mt-2 mr-2 text-[#121212e3] inline'>TK $78.0000 <span className='text-[16px]  ml-2 text-[#121212e3] inline line-through'>TK $148.000</span></p> 
               <p className='text-[16px] font-[600] underline hover:text-gray-500 mt-2'>Select Options +</p>
 				</div>
          </div>
@@ -47,7 +47,7 @@ const ProductSlider = () => {
             <img src={prodimg}  className='rounded-t-xl'/>
             <div className='py-5 pl-5 outline-none border-b border-x border-b-[#ffffff] shadow-5xl rounded-b-xl'>
               <p className='text-xl font-bold'>Mucwo Mucko</p>
-              <p className='text-[16px] mt-2 mr-2 text-[#121212e3] inline'>$78.0000</p> <span className='text-[16px] mt-2 mr-2 text-[#121212e3] sha inline'>$148.000</span>
+              <p className='text-[16px] mt-2 mr-2 text-[#121212e3] inline'>TK $78.0000</p> <span className='text-[16px] mr-2 text-[#121212e3] inline line-through'>TK $148.000</span>
               <p className='text-[16px] font-[600] underline hover:text-gray-500 mt-2'>Select Options +</p>
             </div>
          </div>
