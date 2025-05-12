@@ -9,17 +9,17 @@ import prodimg from '../assets/images/image-1.png'
 
 const ProductSlider = () => {
   return (
-      <div className='grid grid-cols-4 gap-8 mt-14 mb-12'>
-         <div className='shadow-md hover:shadow-lg hover:shadow-[#928e8e] transition-shadow duration-300 rounded-xl cursor-pointer'>
+      <div className='grid grid-cols-4 gap-8 mt-14 mb-32'>
+        <div className='shadow-md hover:shadow-lg hover:shadow-[#8080806c] transition-shadow duration-300 rounded-xl cursor-pointer'>
             <img src={prod12img}  className='rounded-t-xl'/>
             <div className='py-5 pl-5 outline-none border-b border-x border-b-[#ffffff] shadow-5xl rounded-b-xl' >
               <p className='text-xl font-bold mb-2'>Maxoni Microwaave Oven</p>
               <p className='text-[16px] mr-2 text-[#121212e3] inline'> TK $78.0000</p> <span className='text-[#121212bf] line-through'>TK $148.000</span>
               <p className='text-[16px] font-[600] underline hover:text-gray-500 mt-2'>Select Options +</p>
             </div>
-         </div>
+        </div>
 				
-         <div className='shadow-md hover:shadow-lg hover:shadow-[#928e8e] transition-shadow duration-300 rounded-xl cursor-pointer'>
+         <div className='shadow-md hover:shadow-lg hover:shadow-[#8080806c] transition-shadow duration-300 rounded-xl cursor-pointer'>
             <div className='relative'>
 					<img src={prod3img} className='rounded-t-xl hover:opacity-0 transition-opacity duration-300' />
 					<img src={prod5img} className='absolute top-0 left-0 w-full h-full rounded-t-xl opacity-0 hover:opacity-100 transition-opacity duration-300' />
@@ -31,7 +31,7 @@ const ProductSlider = () => {
             </div>
          </div>
 
-         <div className='shadow-md hover:shadow-lg hover:shadow-[#928e8e] transition-shadow duration-300 rounded-xl cursor-pointer'>
+         <div className='shadow-md hover:shadow-lg hover:shadow-[#8080806c] transition-shadow duration-300 rounded-xl cursor-pointer'>
             <div className='relative'>
 					<img src={prod3iimg} className='rounded-t-xl hover:opacity-0 transition-opacity duration-300' />
 					<img src={prod03img} className='absolute top-0 left-0 w-full h-full rounded-t-xl opacity-0 hover:opacity-100 transition-opacity duration-300' />
@@ -43,7 +43,7 @@ const ProductSlider = () => {
 				</div>
          </div>
 
-         <div className='shadow-md hover:shadow-lg hover:shadow-[#928e8e] transition-shadow duration-300 rounded-xl cursor-pointer'>
+         <div className='shadow-md hover:shadow-lg hover:shadow-[#8080806c] transition-shadow duration-300 rounded-xl cursor-pointer'>
             <img src={prodimg}  className='rounded-t-xl'/>
             <div className='py-5 pl-5 outline-none border-b border-x border-b-[#ffffff] shadow-5xl rounded-b-xl'>
               <p className='text-xl font-bold'>Mucwo Mucko</p>

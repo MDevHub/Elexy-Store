@@ -1,7 +1,11 @@
 import React from 'react'
 import bg from '../assets/images/bg.png'
 import ProductSlider from './ProductSlider'
-
+import Category from './Category'
+import InfiniteScrollText from './InfiniteScroll'
+import BestProduct from './BestProduct'
+import Shop from './Shop'
+import Articles from './Articles'
 
 
 const Page1 = () => {
@@ -63,6 +67,30 @@ const Page1 = () => {
 
             {/* Product Slider Component */}
             <ProductSlider />
+
+            {/* Product Category Component */}
+            <Category />
+
+         </div>
+
+         <div>
+            {/* Infinite Scroll */}
+            <InfiniteScrollText />
+         </div>
+
+         <div>
+            {/* Best Products */}
+            <BestProduct />
+         </div>
+
+         <div>
+            {/* Shop */}
+            <Shop />
+         </div>
+
+         <div>
+             {/* Articles */}
+             <Articles />
          </div>
       </section>
    </div>
