@@ -6,6 +6,7 @@ import InfiniteScrollText from './InfiniteScroll'
 import BestProduct from './BestProduct'
 import Shop from './Shop'
 import Articles from './Articles'
+import Footer from './footer'
 
 
 const Page1 = () => {
@@ -91,6 +92,11 @@ const Page1 = () => {
          <div>
              {/* Articles */}
              <Articles />
+         </div>
+
+         <div>
+            {/* Footer */}
+            <Footer />
          </div>
       </section>
    </div>
