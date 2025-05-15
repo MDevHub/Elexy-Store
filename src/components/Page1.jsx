@@ -11,7 +11,7 @@ import Articles from './Articles'
 const Page1 = () => {
   return (
    <div className='w-[100%]'>
-      <section className="relative lg:bg-[url('/src/assets/images/bg.png')] bg-center bg-no-repeat bg-cover lg:h-[150vh] w-full lg:py-[10rem]">
+      <section className="relative lg:bg-[url('/src/assets/images/bg.png')]  bg-top bg-no-repeat bg-cover lg:h-[100vh] w-full lg:py-[10rem]">
          <div className="block lg:hidden mb-10 items-center ">
             <img src={bg} alt="Background" className="w-full h-auto object-cover" />
          </div>
@@ -30,36 +30,12 @@ const Page1 = () => {
                <button className='bg-transparent rounded-[9999px] py-3 px-6 outline-none border border-black mr-5 hover:bg-black hover:text-white transition-all'><a href="">View Details</a></button>
             </div>
          </div>
-
-         <div className="relative bg-[url('/src/assets/images/bg.png')] w-full block lg:flex items-center lg:justify-between pt-16 px-6 pb-10">
-            <div>
-               <p className='text-4xl md:text-7xl font-[900] font-mono mb-3'>28%</p>
-               <span className='text-[#121212dc]'>Discount for Intelligent & Modern <br /> CC Cameras setup collection</span>
-            </div>
-            <div className='grid mt-3 grid-cols-1 md:grid-cols-3 gap-4 w-[85vw] md:w-[70vw] h-[220px] relative '>
-               <div className="bg-[url('/src/assets/images/product-banner-1.png')] bg-cover :bg-center w-[full] rounded-2xl py-10 px-3 md:px-7">
-                  <p className='mb-3 text-[#121212bf]'>MODERN</p>
-                  <p className='mb-4 text-3xl font-bold'>$53.25</p>
-                  <a href="#" className='underline text-[#121212bf] text-[18px] font-bold hover:text-black transition-all'>Shop Now</a>
-               </div>
-               <div className="hidden md:block bg-[url('/src/assets/images/product-banner-2.png')] bg-cover bg-center w-full rounded-2xl py-10 px-7 ">
-                  <p className='text-[#121212bf]'>SPY</p>
-                  <p className='mb-4 text-3xl font-bold'>$39.00</p>
-                  <a href="#" className='underline text-[#121212bf] text-[18px] font-bold hover:text-black transition-all'>Shop Now</a>
-               </div>
-               <div className="hidden md:block bg-[url('/src/assets/images/product-banner-3.png')] bg-cover bg-center w-full rounded-2xl py-10 px-7">
-                  <p className='text-[#121212bf]'>SMART</p>
-                  <p className='mb-4 text-3xl font-bold'>$75.20</p>
-                  <a href="#" className='underline text-[#121212bf] text-[18px] font-bold hover:text-black transition-all'>Shop Now</a>
-               </div>
-            </div>
-         </div>
       </section>
 
       <section>
-         <div className='py-24 mt-20'>
-            <p className='text-center text-2xl md:text-3xl font-bold mb-16'>We've more than 180+ Happy Partners with their <br/> satisfaction and positive feedback</p>
-            <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-20 px-10 lg:px-20 mt-3 items-center  justify-center'>
+         <div className='py-24 '>
+            <p className='text-center text-2xl md:text-3xl font-bold mb-16'>We've more than 180+ Happy Partners with their <br className='hidden lg:block'/> satisfaction and positive feedback</p>
+            <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-20 px-10 lg:px-20 mt-3 items-center  justify-items-center'>
                <img src="/src/assets/images/brand-logo.png" alt="" />
                <img src="/src/assets/images/brand-logo2.png" alt="" />
                <img src="/src/assets/images/brand-logo-3.png" alt="" />

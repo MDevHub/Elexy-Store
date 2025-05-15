@@ -61,7 +61,7 @@ const Category = () => {
       </div>
 
       <div className='grid grid-cols-1 md:grid-cols-3 gap-6 mb-20 w-full'>
-         <div className='relative cursor-pointer overflow-hidden group  hover:rounded-2xl' >
+         <div className='hidden md:block relative cursor-pointer overflow-hidden group  hover:rounded-2xl' >
             <img src={categoryImg6}   className='rounded-2xl object-cover transition-transform duration-300 ease-in-out group-hover:scale-105 origin-bottom'/>
             <div className='absolute top-8 pl-10'>
                <p className='text-[17px] mb-1'>EAR BUDS</p>
