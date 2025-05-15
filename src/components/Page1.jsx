@@ -51,7 +51,7 @@ const Page1 = () => {
             {/* Product Slider Component */}
             <ProductSlider />
 
-            {/* Product Category Component */}
+            {/* Product Category Component */}  
             <Category />
 
          </div>
