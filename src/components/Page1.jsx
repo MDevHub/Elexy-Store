@@ -34,8 +34,8 @@ const Page1 = () => {
 
       <section>
          <div className='py-24 '>
-            <p className='text-center text-2xl md:text-3xl font-bold mb-16'>We've more than 180+ Happy Partners with their <br className='hidden lg:block'/> satisfaction and positive feedback</p>
-            <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-20 px-10 lg:px-20 mt-3 items-center  justify-items-center'>
+            <p className='text-center text-2xl md:text-3xl font-bold mb-16 px-4'>We've more than 180+ Happy Partners with their <br className='hidden lg:block'/> satisfaction and positive feedback</p>
+            <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-20 px-10 lg:px-20 mt-3 items-center justify-items-center'>
                <img src="/src/assets/images/brand-logo.png" alt="" />
                <img src="/src/assets/images/brand-logo2.png" alt="" />
                <img src="/src/assets/images/brand-logo-3.png" alt="" />
