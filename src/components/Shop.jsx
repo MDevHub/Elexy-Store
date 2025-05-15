@@ -8,13 +8,13 @@ import product24 from '../assets/images/product-24.png'
 const Shop = () => {
   return (
    <div>
-      <div className='px-6 mb-40'>
+      <div className='px-4 mb-40'>
             <h1 className='text-4xl font-bold mb-5'>Take the last Chance</h1>
-            <div className='flex justify-between'>
-               <p className='text-[18px]'>Electronics products continue to drive innovation and shape the <br />way we live, work, and interact with our environment.</p>
+            <div className='justify-between'>
+               <p className='text-[18px] mb-6'>Electronics products continue to drive innovation and shape the <br />way we live, work, and interact with our environment.</p>
                <button className='bg-transparent rounded-full py-2 px-8 text-center outline-none border border-black hover:bg-black hover:text-white transition-all'><a href="#">View More</a></button>
             </div>
-         <div className='grid grid-cols-3 gap-6 mt-10'>
+         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-10'>
             <div className='bg-[#8080804f] py-7 px-5 rounded-2xl border-[0.5px] border-[#8f8d8dcb]  outline-none hover:shadow-lg hover:shadow-[#8080806c] transition-shadow duration-300 cursor-pointer'>
                <p className='text-[#1212128f]'>Speaker</p>
                <div className='flex justify-between items-center'>
@@ -26,7 +26,7 @@ const Shop = () => {
                <p className='text-[#121212bf] mb-2'> Only 65 items in stock!</p>
                <hr className='border-[1.8px] border-black outline-none mb-9'/>
                <div>
-                  <button className='mr-3 bg-black text-white font-semibold py-[10px] px-4 rounded-full text-center outline-none border-0 hover:translate-y-[-2px] transition-all'><a href="#">+ Select Options</a></button>
+                  <button className='mb-4 md:mb-3 mr-3  bg-black text-white font-semibold py-[10px] px-4 rounded-full text-center outline-none border-0 hover:translate-y-[-2px] transition-all'><a href="#">+ Select Options</a></button>
                   <button className='bg-transparent rounded-full font-bold py-[10px] px-5 text-center outline-none border border-black hover:bg-black hover:text-white transition-all'><a href="#">View Details</a></button>
                </div>
             </div>
@@ -39,7 +39,7 @@ const Shop = () => {
                <p className='text-[#121212bf] mb-2'>Only 99 items in stock!</p>
                <hr className='border-[1.8px] border-black outline-none mb-9'/>
                <div>
-                  <button className='mr-3 bg-black text-white font-semibold py-[10px] px-4 rounded-full text-center outline-none border-0 hover:translate-y-[-2px] transition-all'><a href="#">+ Select Options</a></button>
+                  <button className='mb-4 md:mb-3 mr-3 bg-black text-white font-semibold py-[10px] px-4 rounded-full text-center outline-none border-0 hover:translate-y-[-2px] transition-all'><a href="#">+ Select Options</a></button>
                   <button className='bg-transparent rounded-full font-bold py-[10px] px-5 text-center outline-none border border-black hover:bg-black hover:text-white transition-all'><a href="#">View Details</a></button>
                </div>
             </div>
@@ -55,7 +55,7 @@ const Shop = () => {
                <p className='text-[#121212bf] mb-2'>Only 34 items in stock!</p>
                <hr className='border-[1.8px] border-black outline-none mb-9'/>
                <div>
-                  <button className='mr-3 bg-black text-white font-semibold py-[10px] px-4 rounded-full text-center outline-none border-0 hover:translate-y-[-2px] transition-all'><a href="#">+ Select Options</a></button>
+                  <button className='mb-4 md:mb-3 mr-3 bg-black text-white font-semibold py-[10px] px-4 rounded-full text-center outline-none border-0 hover:translate-y-[-2px] transition-all'><a href="#">+ Select Options</a></button>
                   <button className='bg-transparent rounded-full font-bold py-[10px] px-5 text-center outline-none border border-black hover:bg-black hover:text-white transition-all'><a href="#">View Details</a></button>
                </div>
             </div>

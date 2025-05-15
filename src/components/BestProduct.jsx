@@ -19,12 +19,12 @@ import product24 from '../assets/images/product-24.png'
 const BestProduct = () => {
   return (
       <div>
-         <div className='px-6'>
+         <div className='px-4 lg:px-6'>
             <h1 className='text-4xl font-bold mb-5'>Best Selling Products</h1>
             <p className='text-[18px]'>Electronics products continue to drive innovation and shape the <br />way we live, work, and interact with our environment.</p>
 
 
-            <div className='grid grid-cols-4 gap-8 mt-14 mb-32'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-14 mb-32'>
                   <div className='shadow-md hover:shadow-lg hover:shadow-[#8080806c] transition-shadow duration-300 rounded-xl cursor-pointer'>
                      <img src={product1}  className='rounded-t-xl'/>
                      <div className='py-5 pl-5 outline-none border-b border-x border-b-[#ffffff] shadow-5xl rounded-b-xl' >
@@ -111,7 +111,7 @@ const BestProduct = () => {
 
             </div>
 
-            <div className='grid grid-cols-2 gap-7 mb-28'>
+            <div className='grid grid-cols-1 md:grid-cols-2 gap-7 mb-28'>
                <div className='cursor-pointer overflow-hidden group  hover:rounded-2xl'>
                   <img src={product10} className='rounded-2xl object-cover transition-transform duration-300 ease-in-out group-hover:scale-105 origin-bottom' />
                </div>

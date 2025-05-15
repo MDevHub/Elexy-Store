@@ -13,11 +13,11 @@ import instagramImg4 from '../assets/images/instagram-4.png'
 const Articles = () => {
   return (
       <div >
-         <div className='px-6'>
-            <h1 className='font-bold text-[45px] text-center'>Latest Articles</h1>
-            <p className='text-center text-xl text-[#12121212bf]'>Smartwatches provide quick access to notifications, calls, messages, and <br /> apps right on your wrist, reducing the constantly check your phone.</p>
+         <div className='px-4 lg:px-6'>
+            <h1 className='font-bold  text-[35px] md:text-[45px] text-center'>Latest Articles</h1>
+            <p className='text-center text-lg md:text-xl text-[#12121212bf]'>Smartwatches provide quick access to notifications, calls, messages, and <br className='hidden lg:block'/> apps right on your wrist, reducing the constantly check your phone.</p>
 
-            <div className='grid grid-cols-3 gap-4 mt-14 mb-28'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 md:gap-4 mt-14 mb-28'>
                <div className='cursor-pointer'>
                   <img src={blogImg1} alt="" className='rounded-xl'/>
                   <div className='flex items-center gap-4 mt-4 mb-3'>
@@ -50,7 +50,7 @@ const Articles = () => {
             </div>
          </div>
 
-            <div className='grid grid-cols-4'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4'>
               <div className='relative group overflow-hidden'>
                   <img src={instagramImg1} className='transition-transform duration-700 group-hover:scale-110 hover:opacity-0'/>
                   

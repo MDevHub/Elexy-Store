@@ -17,9 +17,9 @@ const Category = () => {
    <div className='text-[#000000e0]'>
       <h1 className='text-4xl text-center font-bold mb-3'>Choose Your Category</h1>
       <p className='text-xl text-center'>Smartwatches provide quick access to notifications, calls, messages, and <br /> apps right on your wrist, reducing the constantly check your phone.</p>
-      <div className='grid grid-cols-5 gap-6 mt-8 mb-40'>
+      <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 mt-8 mb-40 text-center'>
          <div>
-            <div className='rounded-[99999px] w-[250px] h-[250px] outline-none border-none  group overflow-hidden'>
+            <div className='rounded-[99999px] outline-none border-none  group overflow-hidden'>
                <img src={categoryImg1} className="w-full object-cover height-full group-hover:scale-105 transition-all duration-700 ease-in-out" /> 
             </div>
             <p className='text-black font-bold my-2 text-xl'>Home applliances</p>
@@ -27,7 +27,7 @@ const Category = () => {
          </div>
 
          <div>
-            <div className='rounded-[99999px] w-[250px] h-[250px] outline-none border-none  group overflow-hidden'> 
+            <div className='rounded-[99999px] outline-none border-none  group overflow-hidden'> 
                <img src={categoryImg2} className="w-full object-cover height-full group-hover:scale-105 transition-all duration-700 ease-in-out"/> 
             </div>
             <p className='text-black font-bold my-2 text-xl'>Pc and Lap Tops</p>
@@ -35,7 +35,7 @@ const Category = () => {
          </div>
 
          <div>
-            <div className='rounded-[99999px] w-[250px] h-[250px] outline-none border-none  group overflow-hidden'>
+            <div className='rounded-[99999px] outline-none border-none  group overflow-hidden'>
                <img src={categoryImg3} className="w-full object-cover height-full group-hover:scale-105 transition-all duration-700 ease-in-out"/> 
             </div>
             <p className='text-black font-bold my-2 text-xl'>Kitchen Applieances</p>
@@ -44,7 +44,7 @@ const Category = () => {
          </div>
 
          <div>
-            <div className='rounded-[99999px] w-[250px] h-[250px] outline-none border-none  group overflow-hidden'>
+            <div className='rounded-[99999px] outline-none border-none  group overflow-hidden'>
                <img src={categoryImg4} className="w-full object-cover height-full group-hover:scale-105 transition-all duration-700 ease-in-out"/> 
             </div>
             <p className='text-black font-bold my-2 text-xl'>Phone and tablets</p>
@@ -52,15 +52,15 @@ const Category = () => {
          </div>
 
          <div>
-            <div className='rounded-[99999px] w-[250px] h-[250px] outline-none border-none  group overflow-hidden'>
-               <img src={categoryImg5}  className='rounded-2xl object-cover transition-transform duration-300 ease-in-out group-hover:scale-105 origin-bottom'/> 
+            <div className='rounded-[99999px] outline-none border-none  group overflow-hidden'>
+               <img src={categoryImg5}  className='rounded-2xl object-cover transition-transform duration-700 ease-in-out group-hover:scale-105 origin-bottom'/> 
             </div>
             <p className='text-black font-bold my-2 text-xl'>Accessories</p>
             <p>6 Items</p>
          </div>
       </div>
 
-      <div className='grid grid-cols-3 gap-6 mb-20'>
+      <div className='grid grid-cols-1 md:grid-cols-3 gap-6 mb-20 w-full'>
          <div className='relative cursor-pointer overflow-hidden group  hover:rounded-2xl' >
             <img src={categoryImg6}   className='rounded-2xl object-cover transition-transform duration-300 ease-in-out group-hover:scale-105 origin-bottom'/>
             <div className='absolute top-8 pl-10'>

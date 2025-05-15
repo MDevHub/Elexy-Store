@@ -3,9 +3,9 @@ import React from 'react'
 const Footer = () => {
   return (
    <div className='bg-gradient-to-r from-black via-black to-[#271313] py-28 px-4 text-white'>
-      <div className='flex items-center justify-between mb-16'>
-         <h1 className='text-[40px] text-[#ffffffe8] font-bold'>Subscribe our Newsletter and <br /> get all of our update.</h1>
-         <div className="p-2 bg-transparent flex items-center gap-2 border border-gray-300 rounded-full outline-none">
+      <div className='md:flex items-center justify-between mb-16'>
+         <h1 className='text-3xl lg:text-[40px] text-[#ffffffe8] font-bold mb-6'>Subscribe our Newsletter and <br className='hidden lg:block' /> get all of our update.</h1>
+         <div className="p-2 bg-transparent flex justify-between items-center gap-2 border border-gray-300 rounded-full outline-none">
             <input 
                type="email" 
                placeholder="Enter your email" 
@@ -17,7 +17,7 @@ const Footer = () => {
          </div>
       </div>
       <hr className='outline-none border-1 border-[#272525]'/>
-      <div className='grid grid-cols-5 gap-3 mt-16 text-[17px]'>
+      <div className='grid grid-cols-2 md:grid-cols-5 gap-3 mt-16 text-[17px]'>
          <div>
             <p className='font-bold mb-4-'>Quick Links</p>
             <div className='flex flex-col mt-7 gap-3 font-medium transition-all'>
@@ -39,7 +39,7 @@ const Footer = () => {
             </div>
          </div>
 
-         <div>
+         <div className='hidden md:block'>
             <p className='font-bold mb-4'>Information</p>
             <div className='flex flex-col mt-7 gap-3 font-medium transition-all'>
                <a href="" className='hover:text-[#3d3a3a]'>About Us</a>
