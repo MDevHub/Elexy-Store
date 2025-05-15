@@ -57,8 +57,8 @@ const Page1 = () => {
       </section>
 
       <section>
-         <div className='py-24 mt-20'>
-            <p className='text-center text-2xl md:text-3xl font-bold mb-16'>We've more than 180+ Happy Partners with their <br/> satisfaction and positive feedback</p>
+         <div className='py-24 mt-14'>
+            <p className='text-center text-2xl md:text-3xl font-bold mb-14'>We've more than 180+ Happy Partners with their <br/> satisfaction and positive feedback</p>
             <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-20 px-10 lg:px-20 mt-3 items-center  justify-center'>
                <img src="/src/assets/images/brand-logo.png" alt="" />
                <img src="/src/assets/images/brand-logo2.png" alt="" />

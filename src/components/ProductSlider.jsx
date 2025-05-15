@@ -9,7 +9,7 @@ import prodimg from '../assets/images/image-1.png'
 
 const ProductSlider = () => {
   return (
-      <div className='grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-14 mb-32'>
+      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-14 mb-32'>
         <div className='shadow-md hover:shadow-lg hover:shadow-[#8080806c] transition-shadow duration-300 rounded-xl cursor-pointer'>
             <img src={prod12img}  className='rounded-t-xl'/>
             <div className='py-5 pl-5 outline-none border-b border-x border-b-[#ffffff] shadow-5xl rounded-b-xl' >
