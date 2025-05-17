@@ -24,54 +24,65 @@ const Products = () => {
             <h1 className='text-4xl text-center font-bold mb-3'>Collections</h1>
             <p className=' text-center mb-3'>At our store you will find a wide selection of products to suit your every need.</p>
             <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mt-8 mb-40 text-center'>
-               <div>
-                  <div className='rounded-[99999px] outline-none border-none  group overflow-hidden'>
-                     <img src={categoryImg1} className="w-full object-cover height-full group-hover:scale-105 transition-all duration-700 ease-in-out" /> 
+               
+               <Link to="/homeappliances">
+                  <div className='cursor-pointer'>
+                     <div className='rounded-[99999px] outline-none border-none  group overflow-hidden'>
+                        <img src={categoryImg1} className="w-full object-cover height-full group-hover:scale-105 transition-all duration-700 ease-in-out" /> 
+                     </div>
+                     <p className='text-black font-bold my-2 text-xl'>Home applliances</p>
+                     <p>1 Items</p>
                   </div>
-                  <p className='text-black font-bold my-2 text-xl'>Home applliances</p>
-                  <p>1 Items</p>
-               </div>
+               </Link>
       
-               <div>
-                  <div className='rounded-[99999px] outline-none border-none  group overflow-hidden'> 
-                     <img src={categoryImg2} className="w-full object-cover height-full group-hover:scale-105 transition-all duration-700 ease-in-out"/> 
+                  <div>
+                     <div className='rounded-[99999px] outline-none border-none  group overflow-hidden'> 
+                        <img src={categoryImg2} className="w-full object-cover height-full group-hover:scale-105 transition-all duration-700 ease-in-out"/> 
+                     </div>
+                     <p className='text-black font-bold my-2 text-xl'>Speaker</p>
+                     <p>6 Items</p>
                   </div>
-                  <p className='text-black font-bold my-2 text-xl'>Spaker</p>
-                  <p>6 Items</p>
-               </div>
-         
-               <div>
-                  <div className='rounded-[99999px] outline-none border-none  group overflow-hidden'>
-                     <img src={categoryImg3} className="w-full object-cover height-full group-hover:scale-105 transition-all duration-700 ease-in-out"/> 
-                  </div>
-                  <p className='text-black font-bold my-2 text-xl'>Phone and tablets</p>
-                  <p>10 Items</p>
-                  
-               </div>
-         
-               <div>
-                  <div className='rounded-[99999px] outline-none border-none  group overflow-hidden'>
-                     <img src={categoryImg4} className="w-full object-cover height-full group-hover:scale-105 transition-all duration-700 ease-in-out"/> 
-                  </div>
-                  <p className='text-black font-bold my-2 text-xl'>Pc and Laptops</p>
-                  <p>11 Items</p>
-               </div>
-      
-               <div>
-                  <div className='rounded-[99999px] outline-none border-none  group overflow-hidden'>
-                     <img src={categoryImg5}  className='rounded-2xl object-cover transition-transform duration-700 ease-in-out group-hover:scale-105 origin-bottom'/> 
-                  </div>
-                  <p className='text-black font-bold my-2 text-xl'>Accessories</p>
-                  <p>6 Items</p>
-               </div>
 
-                <div>
-                  <div className='rounded-[99999px] outline-none border-none  group overflow-hidden'>
-                     <img src={categoryImg6}  className='rounded-2xl object-cover transition-transform duration-700 ease-in-out group-hover:scale-105 origin-bottom'/> 
+               <Link to="/phonetablets">
+                  <div>
+                     <div className='rounded-[99999px] outline-none border-none  group overflow-hidden'>
+                        <img src={categoryImg3} className="w-full object-cover height-full group-hover:scale-105 transition-all duration-700 ease-in-out"/> 
+                     </div>
+                     <p className='text-black font-bold my-2 text-xl'>Phone and tablets</p>
+                     <p>10 Items</p>
+                     
                   </div>
-                  <p className='text-black font-bold my-2 text-xl'>Sale</p>
-                  <p>6 Items</p>
-               </div>
+               </Link>
+         
+               <Link to="/laptops">
+                  <div>
+                     <div className='rounded-[99999px] outline-none border-none  group overflow-hidden'>
+                        <img src={categoryImg4} className="w-full object-cover height-full group-hover:scale-105 transition-all duration-700 ease-in-out"/> 
+                     </div>
+                     <p className='text-black font-bold my-2 text-xl'>Pc and Laptops</p>
+                     <p>11 Items</p>
+                  </div>
+               </Link>
+
+               <Link to="/accessories">
+                  <div>
+                     <div className='rounded-[99999px] outline-none border-none  group overflow-hidden'>
+                        <img src={categoryImg5}  className='rounded-2xl object-cover transition-transform duration-700 ease-in-out group-hover:scale-105 origin-bottom'/> 
+                     </div>
+                     <p className='text-black font-bold my-2 text-xl'>Accessories</p>
+                     <p>6 Items</p>
+                  </div>
+               </Link>
+
+               <Link to="/kitchenappliances">
+                  <div>
+                     <div className='rounded-[99999px] outline-none border-none  group overflow-hidden'>
+                        <img src={categoryImg6}  className='rounded-2xl object-cover transition-transform duration-700 ease-in-out group-hover:scale-105 origin-bottom'/> 
+                     </div>
+                     <p className='text-black font-bold my-2 text-xl'>Sale</p>
+                     <p>6 Items</p>
+                  </div>
+               </Link>
 
                <div>
                   <div className='rounded-[99999px] outline-none border-none  group overflow-hidden'>
