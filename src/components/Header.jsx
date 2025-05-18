@@ -95,7 +95,7 @@ const Header = () => {
 					<Link to="/cartpage" className="relative">
 						<FiShoppingCart className="text-xl" />
 						{cart.length > 0 && (
-							<span className="absolute -top-2 -right-2 bg-red-500 text-white text-xs rounded-full px-1">
+							<span className="absolute -top-2 -right-2 bg-black text-white text-xs rounded-full px-1">
 								{cart.length}
 							</span>
 						)}

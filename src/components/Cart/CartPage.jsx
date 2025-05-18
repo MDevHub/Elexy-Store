@@ -15,9 +15,9 @@ const CartPage = () => {
             {cart.map((item) => (
               <div 
                 key={item.id} 
-                className="flex items-center justify-between p-4 bg-white shadow rounded-lg"
+                className="flex flex-col md:flex-row items-center justify-between p-4 bg-white shadow rounded-lg"
               >
-                <div className="flex items-center gap-4">
+                <div className="flex items-center gap-4 mb-4 md:mb-0">
                   <img src={item.image} alt={item.name} className="w-16 h-16 rounded-lg" />
                   <div>
                     <h3 className="font-semibold">{item.name}</h3>
@@ -33,7 +33,7 @@ const CartPage = () => {
                     >
                       -
                     </button>
-                    <span>{item.quantity}</span>
+                    <span className="w-8 text-center">{item.quantity}</span>
                     <button 
                       onClick={() => updateQuantity(item.id, item.quantity + 1)}
                       className="bg-gray-200 p-1 rounded"
