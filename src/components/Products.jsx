@@ -35,6 +35,7 @@ const Products = () => {
                   </div>
                </Link>
       
+               <Link to="/phonetablets">
                   <div>
                      <div className='rounded-[99999px] outline-none border-none  group overflow-hidden'> 
                         <img src={categoryImg2} className="w-full object-cover height-full group-hover:scale-105 transition-all duration-700 ease-in-out"/> 
@@ -42,6 +43,7 @@ const Products = () => {
                      <p className='text-black font-bold my-2 text-xl'>Speaker</p>
                      <p>6 Items</p>
                   </div>
+               </Link>
 
                <Link to="/phonetablets">
                   <div>
@@ -49,7 +51,7 @@ const Products = () => {
                         <img src={categoryImg3} className="w-full object-cover height-full group-hover:scale-105 transition-all duration-700 ease-in-out"/> 
                      </div>
                      <p className='text-black font-bold my-2 text-xl'>Phone and tablets</p>
-                     <p>10 Items</p>
+                     <p>3 Items</p>
                      
                   </div>
                </Link>
@@ -84,13 +86,15 @@ const Products = () => {
                   </div>
                </Link>
 
-               <div>
-                  <div className='rounded-[99999px] outline-none border-none  group overflow-hidden'>
-                     <img src={categoryImg7}  className='rounded-2xl object-cover object-center transition-transform duration-700 ease-in-out group-hover:scale-105 origin-bottom'/> 
+               <Link to="/laptops">
+                  <div>
+                     <div className='rounded-[99999px] outline-none border-none  group overflow-hidden'>
+                        <img src={categoryImg7}  className='rounded-2xl object-cover object-center transition-transform duration-700 ease-in-out group-hover:scale-105 origin-bottom'/> 
+                     </div>
+                     <p className='text-black font-bold my-2 text-xl'>Head Set</p>
+                     <p>4 Items</p>
                   </div>
-                  <p className='text-black font-bold my-2 text-xl'>Head Set</p>
-                  <p>4 Items</p>
-               </div>
+               </Link>
             </div>
          </div>
       </div>

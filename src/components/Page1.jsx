@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+
 import bg from '../assets/images/instagram-4.png'
 import ProductSlider from './ProductSlider'
 import Category from './Category'
@@ -20,7 +22,7 @@ const Page1 = () => {
             />
          </div>
 
-         <div className='pl-[1rem] md:pl-[4rem] mb-[5vh] md:mb-[30vh]'>
+         <div className='pl-[1rem] md:pl-[2rem] mb-[5vh] md:mb-[30vh]'>
             <p className='text-xl md:text-2xl text-[#333333] font-mono mb-4 md:mb-8'>INTILECT PRO V25S</p>
             <h1 className='text-2xl md:text-7xl font-semibold md:font-[700] from-neutral-50 first: mb-5 md:mb-8'>AI based CCTV Solutions <br className='hidden lg:block' /> for Home and Business</h1>
             <p className='text-[#121212bf] text-[17px] mb-8'>Closed-Circuit Television (CCTV) is a video surveillance system used to monitor and record <br />
@@ -31,7 +33,7 @@ const Page1 = () => {
                <button className='bg-transparent rounded-[9999px] py-3 px-4 outline-none border border-black mr-5 hover:bg-black hover:text-white transition-all whitespace-nowrap'><a href="">View Details</a></button>
             </div>
             <div className='hidden md:block'>
-               <button className='bg-black rounded-[9999px] py-3 px-6 outline-none border-0 mr-5 hover:translate-y-[-2px] transition-all'><a href="" className='text-white'>Shop Now</a></button>
+               <Link to="/kitchenappliances" ><button className='bg-black rounded-[9999px] py-3 px-6 outline-none border-0 mr-5 hover:translate-y-[-2px] transition-all'><a href="" className='text-white'>Shop Now</a></button></Link>
                <button className='bg-transparent rounded-[9999px] py-3 px-6 outline-none border border-black mr-5 hover:bg-black hover:text-white transition-all'><a href="">View Details</a></button>
             </div>
          </div>

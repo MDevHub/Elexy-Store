@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom'
 import { FiChevronDown, FiChevronUp } from 'react-icons/fi';
 
-import prod12img from '../../assets/images/product-12.png'
+import prod12img from '../../assets/images/Rectangle_395.png'
 
 const HomeAppliances = () => {
 
@@ -36,7 +36,7 @@ const HomeAppliances = () => {
 					<img src={prod12img}  className='rounded-t-xl'/>
 					
 					<div className='py-5 pl-5 outline-none border-b border-x border-b-[#ffffff] shadow-5xl rounded-b-xl' >
-						<p className='text-xl font-bold mb-2'>Maxoni Microwaave Oven</p>
+						<p className='text-xl font-bold mb-2'>Rectangle Lg</p>
 						<p className='text-[16px] mr-2 text-[#121212e3] inline'> TK $78.0000</p> <span className='text-[#121212bf] line-through'>TK $148.000</span>
 						<p className='text-[16px] font-[600] underline hover:text-gray-500 mt-2'>Select Options +</p>
 					</div>
