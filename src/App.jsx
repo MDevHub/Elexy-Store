@@ -13,6 +13,7 @@ import SignUp from './components/Login & SignUp/SignUp';
 import Cart from './components/Cart/CartPage';
 import Profile from './components/Login & SignUp/Profile';
 import ProtectedRoute from './components/Login & SignUp/ProtectedRoute';
+import CheckoutPage from './components/Cart/CheckoutPage';
 import Footer from './components/Footer';
 
 import { AuthProvider } from './components/Login & SignUp/AuthContext';
@@ -34,6 +35,7 @@ function App() {
             <Route path="/kitchenappliances" element={<KitchenAppliances />} />
             <Route path="/phonetablets" element={<PhoneTablets />} />
             <Route path="/accessories" element={<Accessories />} />
+            <Route path="/checkoutpage" element={<CheckoutPage />} />
             <Route path="/login" element={<Login />} />
             <Route path="/signup" element={<SignUp />} />
 
