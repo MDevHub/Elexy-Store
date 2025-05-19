@@ -49,17 +49,17 @@ const Page1 = () => {
       </section>
 
       <section>
-         {/* <div className='pt-7 lg:pt-24 pb-24'>
+         <div className='pt-7 lg:pt-24 pb-10'>
             <p className='text-center text-2xl md:text-3xl font-bold mb-16 px-4'>We've more than 180+ Happy Partners with their <br className='hidden lg:block'/> satisfaction and positive feedback</p>
-            <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-20 px-10 lg:px-20 mt-3 items-center justify-items-center'>
+            {/* <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-20 px-10 lg:px-20 mt-3 items-center justify-items-center'>
                <img src="/src/assets/images/brand-logo.png" alt="" />
                <img src="/src/assets/images/brand-logo2.png" alt="" />
                <img src="/src/assets/images/brand-logo-3.png" alt="" />
                <img src="/src/assets/images/brand-logo-4.png" alt="" />
                <img src="/src/assets/images/brand-logo-5.png" alt="" />
                <img src="/src/assets/images/brand-logo-6.png" alt="" />
-            </div>
-         </div> */}
+            </div> */}
+         </div>
          <div className='px-4'>
             <p className='text-4xl font-bold mb-5'>Trendy Collections</p>
             <p className='text-[#121212bf] text-[18px]'>Electronics products continue to drive innovation and shape the <br /> way we live, work, and interact with our environment.</p>
