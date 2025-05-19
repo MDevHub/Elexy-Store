@@ -18,12 +18,12 @@ const Laptops = () => {
   const { addToCart } = useCart();
 
   const products = [
-    { id: 1, name: 'Maxoni Microwave Oven 1', price: 78000, image: prod12img },
-    { id: 2, name: 'Maxoni Microwave Oven 2', price: 78000, image: prod11img },
-    { id: 3, name: 'Maxoni Microwave Oven 3', price: 78000, image: prod1img },
-    { id: 4, name: 'Maxoni Microwave Oven 4', price: 78000, image: prod2img },
-    { id: 5, name: 'Maxoni Microwave Oven 5', price: 78000, image: prod3img },
-    { id: 6, name: 'Maxoni Microwave Oven 6', price: 78000, image: prod4img },
+    { id: 1, name: 'Maxoni Microwave Oven 1', price: 78000, img: prod12img },
+    { id: 2, name: 'Maxoni Microwave Oven 2', price: 78000, img: prod11img },
+    { id: 3, name: 'Maxoni Microwave Oven 3', price: 78000, img: prod1img },
+    { id: 4, name: 'Maxoni Microwave Oven 4', price: 78000, img: prod2img },
+    { id: 5, name: 'Maxoni Microwave Oven 5', price: 78000, img: prod3img },
+    { id: 6, name: 'Maxoni Microwave Oven 6', price: 78000, img: prod4img },
   ];
 
   return (
@@ -58,7 +58,7 @@ const Laptops = () => {
               key={product.id}
               className="relative shadow-md hover:shadow-lg hover:shadow-[#8080806c] transition-shadow duration-300 rounded-xl cursor-pointer"
             >
-              <img src={product.image} className="rounded-t-xl" alt={product.name} />
+              <img src={product.img} alt={product.name} className="rounded-t-xl" />
 
               <div className="py-5 pl-5 outline-none border-b border-x border-b-[#ffffff] shadow-5xl rounded-b-xl">
                 <p className="text-xl font-bold mb-2">{product.name}</p>

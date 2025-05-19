@@ -74,39 +74,34 @@ const Category = () => {
       </div>
 
       <div className='grid grid-cols-1 md:grid-cols-3 gap-6 mb-20 w-full'>
-         <Link to="/accessories">   
+          
             <div className='hidden md:block relative cursor-pointer overflow-hidden group  hover:rounded-2xl' >
                <img src={categoryImg6}   className='rounded-2xl object-cover transition-transform duration-300 ease-in-out group-hover:scale-105 origin-bottom'/>
                <div className='absolute top-8 pl-10'>
                   <p className='text-[17px] mb-1'>EAR BUDS</p>
                   <p className='font-bold text-2xl mb-2'>All-day Long Play ime</p>
-                  <a href="#" className='underline hover:font-semibold transition-all'>Shop Now</a>
+                 <Link to="/accessories" className='underline hover:font-semibold transition-all'>Shop Now</Link>
                </div>
             </div>
-         </Link>
 
-         <Link to="/kitchenappliances">
             <div className='relative cursor-pointer overflow-hidden group  hover:rounded-2xl' >
                <img src={categoryImg7}  className='rounded-2xl object-cover transition-transform duration-300 ease-in-out group-hover:scale-105 origin-bottom'/>
                <div className='absolute top-8 pl-10'>
                   <p className='text-[17px] mb-1'>SMART SPEAKER</p>
                   <p className='font-bold text-2xl mb-2'>Room-Filling Sound Bluetooth Speaker...</p>
-                  <a href="#" className='underline hover:font-semibold transition-all'>Shop Now</a>
+                  <Link to="/kitchenappliances" className='underline hover:font-semibold transition-all'>Shop Now </Link>
                </div>
             </div>
-         </Link>
-
-         <Link to="/phonetablets">
+      
             <div className='relative cursor-pointer overflow-hidden group  hover:rounded-2xl' >
                <img src={categoryImg8} className='rounded-2xl object-cover transition-transform duration-300 ease-in-out group-hover:scale-105 origin-bottom'
                   />
                <div className='absolute top-8 pl-10 rounded-2xl  hover:rounded-2xl'>
                   <p className='text-[17px] mb-1'>KEYBOARD</p>
                   <p className='font-bold text-2xl mb-2'>Mechanical Keyboard</p>
-                  <a href="#" className='underline hover:font-semibold  transition-all duration-[700] ease-in-out hover:scale-y-100'>Shop Now</a>
+                  <Link to="/phonetablets" className='underline hover:font-semibold  transition-all duration-[700] ease-in-out hover:scale-y-100'>Shop Now</Link>
                </div>
             </div>
-         </Link> 
       </div>
    </div>
   )

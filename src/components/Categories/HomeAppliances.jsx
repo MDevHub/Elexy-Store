@@ -17,7 +17,7 @@ const HomeAppliances = () => {
       id: 1,
       name: 'Rectangle Lg',
       price: 78000,
-      image: prod12img,
+      img: prod12img, // changed key from image to img
     },
     // Add more products here if you want
   ];
@@ -50,14 +50,14 @@ const HomeAppliances = () => {
               key={product.id}
               className='relative shadow-md hover:shadow-lg hover:shadow-[#8080806c] transition-shadow duration-300 rounded-xl cursor-pointer'
             >
-              <img src={product.image} className='rounded-t-xl' />
+              <img src={product.img} alt={product.name} className='rounded-t-xl' />
               <div className='py-5 pl-5 outline-none border-b border-x border-b-[#ffffff] shadow-5xl rounded-b-xl'>
                 <p className='text-xl font-bold mb-2'>{product.name}</p>
                 <p className='text-[16px] mr-2 text-[#121212e3] inline'> TK ${product.price}</p>{' '}
                 <span className='text-[#121212bf] line-through'>TK $148.000</span>
                 <button
                   onClick={() => {
-                    addToCart(product);
+                    addToCart(product); // product has img property now
                     alert(`${product.name} has been added to the cart.`);
                   }}
                   className='text-[16px] font-[600] underline hover:text-gray-500 mt-2 block'

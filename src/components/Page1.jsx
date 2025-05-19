@@ -9,7 +9,6 @@ import BestProduct from './BestProduct'
 import Shop from './Shop'
 import Articles from './Articles'
 
-
 const Page1 = () => {
   return (
    <div className='w-[100%]'>
@@ -29,12 +28,22 @@ const Page1 = () => {
             activities in various environments for security, safety, and monitoring purposes.</p>
 
             <div className='flex md:hidden'>
-               <button className='flex bg-black rounded-[9999px] py-1 px-4 outline-none border-0 mr-5 hover:translate-y-[-2px] transition-all whitespace-nowrap text-center items-center'><a href="" className='text-white'>Shop Now</a></button>
-               <button className='bg-transparent rounded-[9999px] py-3 px-4 outline-none border border-black mr-5 hover:bg-black hover:text-white transition-all whitespace-nowrap'><a href="">View Details</a></button>
+               {/* Changed buttons to Links with button styles */}
+               <Link to="/kitchenappliances" className='flex bg-black rounded-[9999px] py-1 px-4 outline-none border-0 mr-5 hover:translate-y-[-2px] transition-all whitespace-nowrap text-center items-center text-white'>
+                 Shop Now
+               </Link>
+               <Link to="/kitchenappliances" className='bg-transparent rounded-[9999px] py-3 px-4 outline-none border border-black mr-5 hover:bg-black hover:text-white transition-all whitespace-nowrap text-center'>
+                 View Details
+               </Link>
             </div>
+
             <div className='hidden md:block'>
-               <Link to="/kitchenappliances" ><button className='bg-black rounded-[9999px] py-3 px-6 outline-none border-0 mr-5 hover:translate-y-[-2px] transition-all'><a href="" className='text-white'>Shop Now</a></button></Link>
-               <button className='bg-transparent rounded-[9999px] py-3 px-6 outline-none border border-black mr-5 hover:bg-black hover:text-white transition-all'><a href="">View Details</a></button>
+               <Link to="/kitchenappliances" >
+                 <button className='bg-black rounded-[9999px] py-3 px-6 outline-none border-0 mr-5 hover:translate-y-[-2px] transition-all text-white'>Shop Now</button>
+               </Link>
+               <Link to="/kitchenappliances" >
+                 <button className='bg-transparent rounded-[9999px] py-3 px-6 outline-none border border-black mr-5 hover:bg-black hover:text-white transition-all'>View Details</button>
+               </Link>
             </div>
          </div>
       </section>

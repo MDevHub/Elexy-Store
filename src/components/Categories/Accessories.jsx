@@ -17,7 +17,7 @@ const Accessories = () => {
       id: 1,
       name: 'Rectangle Lg',
       price: 78000,
-      image: prod12img,
+      img: prod12img, // changed from image to img
     },
   ];
 
@@ -53,7 +53,7 @@ const Accessories = () => {
               key={product.id}
               className="relative shadow-md hover:shadow-lg hover:shadow-[#8080806c] transition-shadow duration-300 rounded-xl cursor-pointer"
             >
-              <img src={product.image} className="rounded-t-xl" alt={product.name} />
+              <img src={product.img} alt={product.name} className="rounded-t-xl" />
               <div className="py-5 pl-5 outline-none border-b border-x border-b-[#ffffff] shadow-5xl rounded-b-xl">
                 <p className="text-xl font-bold mb-2">{product.name}</p>
                 <p className="text-[16px] mr-2 text-[#121212e3] inline"> TK ${product.price}</p>{' '}

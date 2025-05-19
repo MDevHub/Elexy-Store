@@ -34,7 +34,7 @@ export default function InfiniteScrollText() {
           </p>
         </div>
       </div>
-      <style jsx>{`
+      <style>{`
         .animate-marquee-wrapper {
           display: flex;
           width: 100%;
