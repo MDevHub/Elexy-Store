@@ -19,6 +19,7 @@ import Footer from './components/Footer';
 import { AuthProvider } from './components/Login & SignUp/AuthContext';
 import { CartProvider } from './components/Cart/CartContext';
 import CartPage from './components/Cart/CartPage';
+import NotFound from './components/NotFound';
 
 function App() {
   return (
@@ -38,6 +39,7 @@ function App() {
             <Route path="/checkoutpage" element={<CheckoutPage />} />
             <Route path="/login" element={<Login />} />
             <Route path="/signup" element={<SignUp />} />
+            <Route path="*" element={<NotFound />} />
 
             {/* Protected Cart Route */}
             <Route
