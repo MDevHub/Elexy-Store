@@ -130,8 +130,23 @@ const CheckoutPage = () => {
         </div>
 
         {/* Next button */}
-        <button onClick={handleNext} className="mt-4 w-full bg-black border border-black transition-all duration-200 hover:bg-[#0c0c0ce1] text-white py-2 rounded">Purchase Now</button>
-      </div>
+        <button
+          onClick={() => {
+            if (validate()) {
+              setShowModal(true);
+              setTimeout(() => {
+                clearCart();
+                navigate('/reviewpage'); // only navigate if valid
+                window.location.reload();
+              }, 3000);
+            }
+          }}
+          className="mt-4 w-full bg-black border border-black transition-all duration-200 hover:bg-[#0c0c0ce1] text-white py-2 rounded"
+        >
+          Purchase Now
+        </button>
+    
+    </div>
 
       {/* Right: Order Summary */}
       <div className="w-full lg:w-1/3 bg-white shadow rounded-lg p-6">
